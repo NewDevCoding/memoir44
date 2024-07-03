@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
+import Home from './pages/home';
+import Terrain from './pages/terrain';
+import Troops from './pages/troops';
+import Scenarios from './pages/scenarios';
+import Tactics from './pages/tactics';
+import Abacus from './pages/abacus';
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className='container'>
+        
+      </div>
+    </>
   );
 }
 
 export default App;
+
+// <Routes>
+// <Route path="/" elemet={<Home />} />
+// <Route path="/terrain" elemet={<Terrain />} />
+// <Route path="/troope" elemet={<Troops />} />
+// <Route path="/scenarios" elemet={<Scenarios />} />
+// <Route path="/tactics" elemet={<Tactics />} />
+// <Route path="/abacus" elemet={<Abacus />} />
+// </Routes>
