@@ -13,12 +13,12 @@ function App() {
       <Navbar />
       <div className='container'>
         <Routes>
-          <Route path="/" elemet={<Home />} />
-          <Route path="/terrain" elemet={<Terrain />} />
-          <Route path="/troope" elemet={<Troops />} />
-          <Route path="/scenarios" elemet={<Scenarios />} />
-          <Route path="/tactics" elemet={<Tactics />} />
-          <Route path="/abacus" elemet={<Abacus />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/terrain" element={<Terrain />} />
+          <Route path="/troope" element={<Troops />} />
+          <Route path="/scenarios" element={<Scenarios />} />
+          <Route path="/tactics" element={<Tactics />} />
+          <Route path="/abacus" element={<Abacus />} />
         </Routes>
       </div>
     </>
