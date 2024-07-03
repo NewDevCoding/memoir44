@@ -2,8 +2,10 @@ import React from 'react'
 
 const home = () => {
   return (
-    <div>home</div>
+    <img src='Textphoto.png' />
+      
+    
   )
 }
 
-export default home
+export default home 
