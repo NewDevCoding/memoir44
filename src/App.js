@@ -12,7 +12,14 @@ function App() {
     <>
       <Navbar />
       <div className='container'>
-        
+        <Routes>
+          <Route path="/" elemet={<Home />} />
+          <Route path="/terrain" elemet={<Terrain />} />
+          <Route path="/troope" elemet={<Troops />} />
+          <Route path="/scenarios" elemet={<Scenarios />} />
+          <Route path="/tactics" elemet={<Tactics />} />
+          <Route path="/abacus" elemet={<Abacus />} />
+        </Routes>
       </div>
     </>
   );
@@ -20,11 +27,3 @@ function App() {
 
 export default App;
 
-// <Routes>
-// <Route path="/" elemet={<Home />} />
-// <Route path="/terrain" elemet={<Terrain />} />
-// <Route path="/troope" elemet={<Troops />} />
-// <Route path="/scenarios" elemet={<Scenarios />} />
-// <Route path="/tactics" elemet={<Tactics />} />
-// <Route path="/abacus" elemet={<Abacus />} />
-// </Routes>
