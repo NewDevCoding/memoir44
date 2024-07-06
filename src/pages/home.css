@@ -1,12 +1,17 @@
+.container {
+    height: 650px;
+}
+
 
 .test {
     background-image: url("/public/images/background2.jpg");
     background-size: cover;
-    height: 590px;
+    height: 100%;
     margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -17,7 +22,19 @@
 }
 
 .footer-1 {
-    background-color: black;
-    height: 200px;
-    width: 100%;
+    background-color: rgb(22, 20, 20);
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
+
+.contact {
+    color: white;
+    
+}
+
+.copywrite {
+    color: white;
+    padding-left: 21%;    
+}
+

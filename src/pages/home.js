@@ -18,8 +18,9 @@ const home = () => {
         </div>            
       </div>    
     
-      <footer>
-        <div className='footer-1'></div>
+      <footer className='footer-1'>
+        <div className='contact'>Contact me: isaac@thesheridans.email</div>
+        <div className='copywrite'>Copywrite &copy;2024;  Designed by Molotovboi</div>
 
       </footer>
     </>
