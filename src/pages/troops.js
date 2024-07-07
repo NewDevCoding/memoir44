@@ -1,9 +1,21 @@
 import React from 'react'
 
-const troops = () => {
+const Troops = () => {
   return (
-    <div>troops</div>
+    <>
+     <div className='search-wrapper'>
+       <label htmlFor='search'>Search for Troops</label>
+       <input type='search' placeholder='Search for troops' id='search'/>
+     </div>
+
+     <div className='troop-cards'>
+      
+     </div>
+    </>
+    
+    
   )
 }
 
-export default troops
+export default Troops
+
