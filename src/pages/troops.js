@@ -23,8 +23,7 @@ function Troops() {
     };
     return (
       <div className="container">
-        <h2>React-App</h2>
-        <h4>Build Search Filter in React Js</h4>
+        <h2>Search For Troop Info</h2>
         <input
           type="search"
           placeholder="Type something to search..."
