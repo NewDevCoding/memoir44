@@ -22,7 +22,7 @@ function Troops() {
       setTempData(newData);
     };
     return (
-      <div className="container">
+      <>
         <h2>Search For Troop Info</h2>
         <input
           type="search"
@@ -30,15 +30,16 @@ function Troops() {
           style={inputStyle}
           onChange={(e) => onSearchChange(e.target.value)}
         />
+
         <div className='display-container'>
-        {tempData && tempData.map((customer, index) => (
-          <Card userInfo={customer} key={index} />
-        ))}
+          {tempData && tempData.map((customer, index) => (
+            <Card userInfo={customer} key={index} />
+          ))}
         </div>
-      </div>
+        
+      </>
     );
   }
-
 
 
 export default Troops
