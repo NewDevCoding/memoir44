@@ -1,14 +1,12 @@
 import React from "react";
 import "./CSSpages/card.css"
 
-const Card = ({ userInfo }) => {
-  const { name, order } = userInfo;
+const TestCard = () => {
   return (
     <div style={{backgroundColor: "#99cfa4", paddingBottom: 5, }} className="card-container">
-      <p>{name}</p>({order})
+      <p>Eeee</p>
     </div>
   );
 };
 
-export default Card;
-
+export default TestCard;

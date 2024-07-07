@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import CustomerData from "./customerData"
 import Card from './card'
-import "./troops.css"
+import "./CSSpages/troops.css"
+import { Link } from "react-router-dom"
 
 
 
@@ -22,20 +23,25 @@ function Terrain() {
       setTempData(newData);
     };
     return (
-      <div className="container">
-        <h2>Search For Terrain Info</h2>
-        <input
-          type="search"
-          placeholder="Type something to search..."
-          style={inputStyle}
-          onChange={(e) => onSearchChange(e.target.value)}
-        />
+     <>
+        <div className='searchbar-comp'>
+          <h2>Search For Terrain Info</h2>
+          <input
+            type="search"
+            placeholder="Type something to search..."
+            style={inputStyle}
+            onChange={(e) => onSearchChange(e.target.value)}
+          />
+        </div>
+
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
-          <Card userInfo={customer} key={index} />
+          <Link to="/card">
+            <Card userInfo={customer} key={index}/>
+          </Link>
         ))}
         </div>
-      </div>
+        </>
     );
   }
 

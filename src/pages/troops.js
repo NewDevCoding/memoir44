@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import CustomerData from "./customerData"
 import Card from './card'
-import "./troops.css"
+import "./CSSpages/troops.css"
 
 
 
