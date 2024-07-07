@@ -41,6 +41,41 @@ const CustomerData = [
       date: "07/07/2020",
       order: "87574505851064",
     },
+    {
+      id: 7,
+      name: "Ted McDonald",
+      address: "Minneapolis, MN 55406",
+      date: "07/07/2020",
+      order: "87574505851064",
+    },
+    {
+      id: 8,
+      name: "Ted McDonald",
+      address: "Minneapolis, MN 55406",
+      date: "07/07/2020",
+      order: "87574505851064",
+    },
+    {
+      id: 9,
+      name: "Ted McDonald",
+      address: "Minneapolis, MN 55406",
+      date: "07/07/2020",
+      order: "87574505851064",
+    },
+    {
+      id: 10,
+      name: "Ted McDonald",
+      address: "Minneapolis, MN 55406",
+      date: "07/07/2020",
+      order: "87574505851064",
+    },
+    {
+      id: 11,
+      name: "Ted McDonald",
+      address: "Minneapolis, MN 55406",
+      date: "07/07/2020",
+      order: "87574505851064",
+    },
   ];
 
   export default CustomerData

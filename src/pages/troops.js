@@ -23,6 +23,8 @@ function Troops() {
     };
     return (
       <>
+      
+        <div className='searchbar-comp'>
         <h2>Search For Troop Info</h2>
         <input
           type="search"
@@ -30,6 +32,7 @@ function Troops() {
           style={inputStyle}
           onChange={(e) => onSearchChange(e.target.value)}
         />
+        </div>
 
         <div className='display-container'>
           {tempData && tempData.map((customer, index) => (
