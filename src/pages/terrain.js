@@ -19,9 +19,13 @@ function Terrain() {
         (cust) =>
           cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()) ||
           cust.order.includes(value)
+          
       );
       setTempData(newData);
+      console.log(tempData)
     };
+    
+    // tempData.map(user => console.log(user.id))
     return (
      <>
         <div className='searchbar-comp'>
@@ -36,7 +40,8 @@ function Terrain() {
 
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
-          <Link to="/card">
+          
+          <Link to={`/card/${customer.id}`}>
             <Card userInfo={customer} key={index}/>
           </Link>
         ))}

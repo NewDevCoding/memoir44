@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import CustomerData from "./customerData"
 import Card from './card'
+import { Link } from 'react-router-dom'
 import "./CSSpages/troops.css"
 
 
@@ -36,7 +37,9 @@ function Troops() {
 
         <div className='display-container'>
           {tempData && tempData.map((customer, index) => (
-            <Card userInfo={customer} key={index} />
+          <Link to={`/card/${customer.id}`}>
+            <Card userInfo={customer} key={index}/>
+          </Link>
           ))}
         </div>
         
