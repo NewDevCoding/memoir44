@@ -6,7 +6,16 @@ const Navbar = () => {
   return (
     <nav className='nav'>
         <div className='site-title'>
-            <Link to="/">Memoir44</Link>
+            <Link to="/">
+            <img 
+             className='logo-image'
+             src={require('./logo.png')}
+             height={100}
+             width={100}   
+             margin={10}       
+             alt='logo'
+             />
+            </Link>
         </div>
         <ul>
             <li>

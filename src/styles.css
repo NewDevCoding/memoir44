@@ -4,25 +4,32 @@
 
 body {
     margin: 0;
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 .site-title {
     font-size: 3.5rem;
 }
 
+
 .nav {
-    background-color: #a6ac54;
+    background-color: #A6AC54;
     color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 0 1rem 0 1rem;
     position: fixed;
     width: 100%;
     top: 0;
     
+}
+
+.logo-image {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nav ul {
