@@ -1,9 +1,8 @@
 import React from 'react'
 
-const TroopCard = (props) => {
+const TroopCard = ({props}) => {
     
-    const {name, address} = props.props;
-    console.log(name)
+    const {name, address} = props;
 
   return (
     <div className='troop-card-container'>
