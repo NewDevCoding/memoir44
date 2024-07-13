@@ -6,7 +6,7 @@ import Scenarios from './pages/scenarios';
 import Tactics from './pages/tactics';
 import Abacus from './pages/abacus';
 import { Route, Routes } from 'react-router-dom'
-import TestCard from "./pages/terraincards/testRoute"
+import Post from './pages/post';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/scenarios" element={<Scenarios />} />
           <Route path="/tactics" element={<Tactics />} />
           <Route path="/abacus" element={<Abacus />} />
-          <Route path="/card/:id" element={<TestCard />} />
+          <Route path="/card/:id" element={<Post />} />
         </Routes>
       </div>
     </>

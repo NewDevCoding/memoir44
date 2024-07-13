@@ -7,15 +7,14 @@ import CustomerData from './customerData';
 
 const Post = () => {
     const { id } = useParams()
-
-    const filteredPost = CustomerData[id]
-    const name = filteredPost.name
-    const address = filteredPost.address
-    console.log(filteredPost)
+    
+    const filteredPost = CustomerData.filter(customer => customer.id === parseInt(id))
+    
     
   return (
-    <div key={filteredPost[id]}><TroopCard props={filteredPost} /></div>
+    <div key={filteredPost.id}><TroopCard props={filteredPost[0]} /></div>
   )
 }
 
 export default Post
+
