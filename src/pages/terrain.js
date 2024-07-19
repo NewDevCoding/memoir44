@@ -41,7 +41,7 @@ function Terrain() {
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
           
-          <Link to={`/card/${customer.id}`}>
+          <Link to={`/terrain/terraincard/${customer.id}`}>
             <Card userInfo={customer} key={index}/>
           </Link>
         ))}

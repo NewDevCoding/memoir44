@@ -20,7 +20,8 @@ function App() {
           <Route path="/scenarios" element={<Scenarios />} />
           <Route path="/tactics" element={<Tactics />} />
           <Route path="/abacus" element={<Abacus />} />
-          <Route path="/card/:id" element={<Post />} />
+          <Route path="/terrain/terraincard/:id" element={<Post />} />
+          <Route path="/troops/troopcard/:id" element={<Post />} />
         </Routes>
       </div>
     </>

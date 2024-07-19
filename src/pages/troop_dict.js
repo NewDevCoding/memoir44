@@ -1,6 +1,8 @@
-const Test6 = () => {
+const Infantry = () => {
     return (
-      <div>Test6</div>
+      <> 
+            
+      </>
     )
   }
   
@@ -40,7 +42,7 @@ const Test6 = () => {
   
   let dict = [{
     id: 1,
-    component: <Test1 />
+    component: <Infantry />
   },{
     id: 2,
     component: <Test2 />
@@ -55,7 +57,7 @@ const Test6 = () => {
     component: <Test5 />
   },{
     id: 6,
-    component: <Test6 />
+    component: <Infantry />
   }]
 
   export default dict

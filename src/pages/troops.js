@@ -37,7 +37,7 @@ function Troops() {
 
         <div className='display-container'>
           {tempData && tempData.map((customer, index) => (
-          <Link to={`/card/${customer.id}`}>
+          <Link to={`/troops/troopcard/${customer.id}`}>
             <Card userInfo={customer} key={index}/>
           </Link>
           ))}
