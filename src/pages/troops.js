@@ -1,8 +1,24 @@
 import React, {useState} from 'react'
-import CustomerData from "./customerData"
+// import CustomerData from "./customerData"
 import Card from './card'
 import { Link } from 'react-router-dom'
 import "./CSSpages/troops.css"
+
+const CustomerData = [{
+  id: 1,
+  name: 'Mobile Artillery',
+  image: require("./troop_images/mobile_artillery.PNG"),
+},{
+  id: 2,
+  name: 'Artificial Intelligence',
+  image: require("./troop_images/mobile_artillery.PNG"),
+},{
+  id: 3,
+  name: 'Intelligence',
+  image: require("./troop_images/mobile_artillery.PNG"),
+}]
+
+ 
 
 
 
@@ -17,11 +33,11 @@ function Troops() {
     const onSearchChange = (value) => {
       const newData = CustomerData && CustomerData.filter(
         (cust) =>
-          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()) ||
-          cust.order.includes(value)
+          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
       );
       setTempData(newData);
     };
+
     return (
       <>
       
@@ -38,7 +54,7 @@ function Troops() {
         <div className='display-container'>
           {tempData && tempData.map((customer, index) => (
           <Link to={`/troops/troopcard/${customer.id}`}>
-            <Card userInfo={customer} key={index}/>
+            <Card userInfo={customer.image} key={index}/>
           </Link>
           ))}
         </div>
@@ -46,6 +62,8 @@ function Troops() {
       </>
     );
   }
+
+  
 
 
 export default Troops
