@@ -7,11 +7,13 @@ import Tactics from './pages/tactics';
 import Abacus from './pages/abacus';
 import { Route, Routes } from 'react-router-dom'
 import Post from './pages/post';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <div className='container'>
         <Routes>
           <Route path="/" element={<Home />} />
