@@ -25,6 +25,9 @@ const Navbar = () => {
                  <Link to='/troops'>Troops</Link>
             </li>
             <li>
+                 <Link to='/actions'>Actions</Link>
+            </li>
+            <li>
                  <Link to='/scenarios'>Scenarios</Link>
             </li>
             <li>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import TerrainData from './TerrainData'
+import ActionData from './ActionData'
 import Card from './card'
 import "./CSSpages/troops.css"
 import { Link } from "react-router-dom"
@@ -7,15 +7,15 @@ import { Link } from "react-router-dom"
 
 
 
-function Terrain() {
-    const [tempData, setTempData] = useState(TerrainData);
+function Actions() {
+    const [tempData, setTempData] = useState(ActionData);
     const inputStyle = {
       padding: 12,
       width: "100%",
       fontSize: "105%",
     };
     const onSearchChange = (value) => {
-      const newData = TerrainData && TerrainData.filter(
+      const newData = ActionData && ActionData.filter(
         (cust) =>
           cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()) ||
           cust.order.includes(value)
@@ -29,7 +29,7 @@ function Terrain() {
     return (
      <>
         <div className='searchbar-comp'>
-          <h2>Search For Terrain Info</h2>
+          <h2>Search For Actions info</h2>
           <input
             type="search"
             placeholder="Type something to search..."
@@ -41,7 +41,7 @@ function Terrain() {
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
           
-          <Link to={`/terrain/terraincard/${customer.id}`}>
+          <Link to={`/actions/actioncard/${customer.id}`}>
             <Card userInfo={customer.image} key={index}/>
           </Link>
         ))}
@@ -52,4 +52,4 @@ function Terrain() {
 
 
 
-export default Terrain
+export default Actions

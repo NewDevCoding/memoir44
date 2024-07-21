@@ -1,4 +1,4 @@
-const TerrainData = [{
+const ActionData = [{
     id: 1,
     name: 'Standard units',
     image: require("./troop_images/standard_units.PNG"),
@@ -100,8 +100,8 @@ const TerrainData = [{
     image: require("./troop_images/screeming_meemies.PNG"),
   },{
     id: 26,
-    name: 'Hobarts Funniess',
+    name: 'Hobarts Funnies',
     image: require("./troop_images/hobarts.PNG"),
   }]
 
-  export default TerrainData;
+  export default ActionData;

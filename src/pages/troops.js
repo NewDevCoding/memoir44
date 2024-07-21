@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import CustomerData from "./customerData"
+import TroopData from './TroopData'
 import Card from './card'
 import { Link } from 'react-router-dom'
 import "./CSSpages/troops.css"
@@ -12,14 +12,14 @@ import "./CSSpages/troops.css"
 
 
 function Troops() {
-    const [tempData, setTempData] = useState(CustomerData);
+    const [tempData, setTempData] = useState(TroopData);
     const inputStyle = {
       padding: 12,
       width: "100%",
       fontSize: "105%",
     };
     const onSearchChange = (value) => {
-      const newData = CustomerData && CustomerData.filter(
+      const newData = TroopData && TroopData.filter(
         (cust) =>
           cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
       );

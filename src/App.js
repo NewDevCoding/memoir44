@@ -8,6 +8,7 @@ import Abacus from './pages/abacus';
 import { Route, Routes } from 'react-router-dom'
 import Post from './pages/post';
 import ScrollToTop from './ScrollToTop';
+import Actions from './pages/actions';
 
 function App() {
   return (
@@ -19,11 +20,13 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/terrain" element={<Terrain />} />
           <Route path="/troops" element={<Troops />} />
+          <Route path="/actions" element={<Actions />} />
           <Route path="/scenarios" element={<Scenarios />} />
           <Route path="/tactics" element={<Tactics />} />
           <Route path="/abacus" element={<Abacus />} />
           <Route path="/terrain/terraincard/:id" element={<Post />} />
           <Route path="/troops/troopcard/:id" element={<Post />} />
+          <Route path="/actions/actioncard/:id" element={<Post />} />
         </Routes>
       </div>
     </>
