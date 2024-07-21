@@ -1,107 +1,271 @@
 const TerrainData = [{
     id: 1,
-    name: 'Standard units',
-    image: require("./troop_images/standard_units.PNG"),
+    name: 'Beaches',
+    image: require("./terrain_images/beaches.PNG"),
   },{
     id: 2,
-    name: 'Specialized Units',
-    image: require("./troop_images/specialized_units.PNG"),
+    name: 'Bunkers',
+    image: require("./terrain_images/bunkers.PNG"),
   },{
     id: 3,
-    name: 'Big Guns',
-    image: require("./troop_images/big_guns.PNG"),
+    name: 'Forests',
+    image: require("./terrain_images/forests.PNG"),
   },{
     id: 4,
-    name: 'Combat Engineers',
-    image: require("./troop_images/combat_engineers.PNG"),
+    name: 'Hedge Rows',
+    image: require("./terrain_images/hedgerows.PNG"),
   },{
     id: 5,
-    name: 'Trains',
-    image: require("./troop_images/trains.PNG"),
+    name: 'Hedgehogs',
+    image: require("./terrain_images/hedgehogs.PNG"),
   },{
     id: 6,
-    name: 'Supply Trains',
-    image: require("./troop_images/supply_train.PNG"),
+    name: 'Hills',
+    image: require("./terrain_images/hills.PNG"),
   },{
     id: 7,
-    name: 'Armored Trains',
-    image: require("./troop_images/armoured_trains.PNG"),
+    name: 'Oceans',
+    image: require("./terrain_images/oceans.PNG"),
   },{
     id: 8,
-    name: 'Cavalry',
-    image: require("./troop_images/cavalry.PNG"),
+    name: 'Rivers and Waterways',
+    image: require("./terrain_images/rivers_waterways.PNG"),
   },{
     id: 9,
-    name: 'Ski Troops',
-    image: require("./troop_images/ski_troops.PNG"),
+    name: 'Bridges',
+    image: require("./terrain_images/bridges.PNG"),
   },{
     id: 10,
-    name: 'Snipers',
-    image: require("./troop_images/snipers.PNG"),
+    name: 'Sandbags',
+    image: require("./terrain_images/sandbags.PNG"),
   },{
     id: 11,
-    name: 'Aircraft Carriers',
-    image: require("./troop_images/carriers.PNG"),
+    name: 'Cliffs and Sea Bluffs',
+    image: require("./terrain_images/cliffs_bluffs.PNG"),
   },{
     id: 12,
-    name: 'Destroyers',
-    image: require("./troop_images/destroyers.PNG"),
+    name: 'Sea Wall',
+    image: require("./terrain_images/sea_wall.PNG"),
   },{
     id: 13,
-    name: 'Flame Thrower Tanks',
-    image: require("./troop_images/flame_tanks.PNG"),
+    name: 'Steep Hills',
+    image: require("./terrain_images/steep_hills.PNG"),
   },{
     id: 14,
-    name: 'Mobile Artillery',
-    image: require("./troop_images/mobile_artillery.PNG"),
+    name: 'Towns ans Villages',
+    image: require("./terrain_images/towns_villages.PNG"),
   },{
     id: 15,
-    name: 'Landing Craft',
-    image: require("./troop_images/landing_craft.PNG"),
+    name: 'Wire',
+    image: require("./terrain_images/wire.PNG"),
   },{
     id: 16,
-    name: 'Tigers',
-    image: require("./troop_images/tigers.PNG"),
+    name: 'Airfields',
+    image: require("./terrain_images/airfields.PNG"),
   },{
     id: 17,
-    name: 'Supply Trucks',
-    image: require("./troop_images/supply_trucks.PNG"),
+    name: 'Barracks',
+    image: require("./terrain_images/barracks.PNG"),
   },{
     id: 18,
-    name: 'Half Tracks',
-    image: require("./troop_images/half_tracks.PNG"),
+    name: 'Cemeteries',
+    image: require("./terrain_images/cemeteries.PNG"),
   },{
     id: 19,
-    name: 'Long Range Patrol Cars',
-    image: require("./troop_images/patrol_cars.PNG"),
+    name: 'Churches',
+    image: require("./terrain_images/churches.PNG"),
   },{
     id: 20,
-    name: 'Command Cars',
-    image: require("./troop_images/command_Cars.PNG"),
+    name: 'Dams',
+    image: require("./terrain_images/dams.PNG"),
   },{
     id: 21,
-    name: 'Brandenburgers',
-    image: require("./troop_images/branded_burgers.PNG"),
+    name: 'Factory Complex',
+    image: require("./terrain_images/factory.PNG"),
   },{
     id: 22,
-    name: 'Depleted Units',
-    image: require("./troop_images/depleted_units.PNG"),
+    name: 'Field Bunkers',
+    image: require("./terrain_images/field_bunkers.PNG"),
   },{
     id: 23,
-    name: 'Heavy Anti Tank Guns',
-    image: require("./troop_images/heavy_at.PNG"),
+    name: 'Flooded Fields',
+    image: require("./terrain_images/flooded_fields.PNG"),
   },{
     id: 24,
-    name: 'Tank Destroyers',
-    image: require("./troop_images/tank_destroyers.PNG"),
+    name: 'Fortresses',
+    image: require("./terrain_images/fortresses.PNG"),
   },{
     id: 25,
-    name: 'Screeming Meemies',
-    image: require("./troop_images/screeming_meemies.PNG"),
+    name: 'High Ground',
+    image: require("./terrain_images/high_ground.PNG"),
   },{
     id: 26,
-    name: 'Hobarts Funniess',
-    image: require("./troop_images/hobarts.PNG"),
+    name: 'Lake',
+    image: require("./terrain_images/lake.PNG"),
+  },{
+    id: 27,
+    name: 'Lighthouses',
+    image: require("./terrain_images/lighthouses.PNG"),
+  },{
+    id: 28,
+    name: 'Marshes',
+    image: require("./terrain_images/marshes.PNG"),
+  },{
+    id: 29,
+    name: 'Minefields',
+    image: require("./terrain_images/minefields.PNG"),
+  },{
+    id: 30,
+    name: 'Mountains',
+    image: require("./terrain_images/mountains.PNG"),
+  },{
+    id: 31,
+    name: 'Oasis',
+    image: require("./terrain_images/oasis.PNG"),
+  },{
+    id: 32,
+    name: 'Palm Forests',
+    image: require("./terrain_images/palm_forests.PNG"),
+  },{
+    id: 33,
+    name: 'Pontoon Bridges',
+    image: require("./terrain_images/pontoon_bridges.PNG"),
+  },{
+    id: 34,
+    name: 'Power Plants',
+    image: require("./terrain_images/power_plants.PNG"),
+  },{
+    id: 35,
+    name: 'Prison Camps',
+    image: require("./terrain_images/prison_camps.PNG"),
+  },{
+    id: 36,
+    name: 'Radar Stations',
+    image: require("./terrain_images/radar_stations.PNG"),
+  },{
+    id: 37,
+    name: 'Railroad Bridges',
+    image: require("./terrain_images/railroad_bridges.PNG"),
+  },{
+    id: 38,
+    name: 'Railroad Tracks',
+    image: require("./terrain_images/railroad_tracks.PNG"),
+  },{
+    id: 39,
+    name: 'Railroad Station',
+    image: require("./terrain_images/railroad_station.PNG"),
+  },{
+    id: 40,
+    name: 'Road Blocks',
+    image: require("./terrain_images/road_blocks.PNG"),
+  },{
+    id: 41,
+    name: 'Fords and Fordable Rivers',
+    image: require("./terrain_images/fords_rivers.PNG"),
+  },{
+    id: 42,
+    name: 'Roads',
+    image: require("./terrain_images/roads.PNG"),
+  },{
+    id: 43,
+    name: 'Supply Depots',
+    image: require("./terrain_images/supply_depots.PNG"),
+  },{
+    id: 44,
+    name: 'Wadis and Gullies',
+    image: require("./terrain_images/wadis_gullies.PNG"),
+  },{
+    id: 45,
+    name: 'City Ruins',
+    image: require("./terrain_images/city_ruins.PNG"),
+  },{
+    id: 46,
+    name: 'Dragons Teeth',
+    image: require("./terrain_images/dragons_teeth.PNG"),
+  },{
+    id: 47,
+    name: 'Frozen Rivers',
+    image: require("./terrain_images/frozen_rivers.PNG"),
+  },{
+    id: 48,
+    name: 'Hills with Forests',
+    image: require("./terrain_images/hills_forests.PNG"),
+  },{
+    id: 49,
+    name: 'Hills with Villages',
+    image: require("./terrain_images/hills_villages.PNG"),
+  },{
+    id: 50,
+    name: 'Ravines',
+    image: require("./terrain_images/ravines.PNG"),
+  },{
+    id: 51,
+    name: 'Trenches',
+    image: require("./terrain_images/trenches.PNG"),
+  },{
+    id: 52,
+    name: 'Caves on Hills',
+    image: require("./terrain_images/caves_hills.PNG"),
+  },{
+    id: 53,
+    name: 'Caves on Mountains',
+    image: require("./terrain_images/caves_mountains.PNG"),
+  },{
+    id: 54,
+    name: 'Fish Ponds',
+    image: require("./terrain_images/fish_ponds.PNG"),
+  },{
+    id: 55,
+    name: 'Hospitals',
+    image: require("./terrain_images/hospitals.PNG"),
+  },{
+    id: 56,
+    name: 'HQ and Supply',
+    image: require("./terrain_images/hq_supply.PNG"),
+  },{
+    id: 57,
+    name: 'Jungles',
+    image: require("./terrain_images/jungles.PNG"),
+  },{
+    id: 58,
+    name: 'Labor Camps',
+    image: require("./terrain_images/labor_camps.PNG"),
+  },{
+    id: 59,
+    name: 'Piers',
+    image: require("./terrain_images/piers.PNG"),
+  },{
+    id: 60,
+    name: 'Rice Paddies',
+    image: require("./terrain_images/rice_paddies.PNG"),
+  },{
+    id: 61,
+    name: 'Fordable Streams',
+    image: require("./terrain_images/fordable_streams.PNG"),
+  },{
+    id: 62,
+    name: 'Rope Bridges',
+    image: require("./terrain_images/rope_bridges.PNG"),
+  },{
+    id: 63,
+    name: 'Escarpments',
+    image: require("./terrain_images/escarpments.PNG"),
+  },{
+    id: 64,
+    name: 'Ergs and Ridges',
+    image: require("./terrain_images/ergs_ridges.PNG"),
+  },{
+    id: 65,
+    name: 'Balkas',
+    image: require("./terrain_images/balkas.PNG"),
+  },{
+    id: 66,
+    name: 'Abatis',
+    image: require("./terrain_images/abatis.PNG"),
+  },{
+    id: 67,
+    name: 'Castle',
+    image: require("./terrain_images/castle.PNG"),
   }]
 
   export default TerrainData;
