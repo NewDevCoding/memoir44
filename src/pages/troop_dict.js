@@ -1,6 +1,62 @@
+const Test34 = () => {
+  return (
+    <div>Machine Gun</div>
+          
+    
+  )
+}
+const Test33 = () => {
+  return (
+    <div>Machine Gun Late War</div>
+          
+    
+  )
+}
+const Test32 = () => {
+  return (
+    <div>Mortar Late War</div>
+          
+    
+  )
+}
+const Test31 = () => {
+  return (
+    <div>Anti Tank Late War</div>
+          
+    
+  )
+}
+const Test30 = () => {
+  return (
+    <div>Special Weapons Assets Late War</div>
+          
+    
+  )
+}
+const Test29 = () => {
+  return (
+    <div>Mortar</div>
+          
+    
+  )
+}
+const Test28 = () => {
+  return (
+    <div>Anti Tank Guns</div>
+          
+    
+  )
+}
+const Test27 = () => {
+  return (
+    <div>Special Weapons Assets</div>
+          
+    
+  )
+}
 const Test26 = () => {
   return (
-    <div>Hobarts</div>
+    <div>Hobarts Funnies</div>
           
     
   )
@@ -247,6 +303,30 @@ const Test1 = () => {
   },{
     id: 26,
     component: <Test26 />
+  },{
+    id: 27,
+    component: <Test27 />
+  },{
+    id: 28,
+    component: <Test28 />
+  },{
+    id: 29,
+    component: <Test29 />
+  },{
+    id: 30,
+    component: <Test30 />
+  },{
+    id: 31,
+    component: <Test31 />
+  },{
+    id: 32,
+    component: <Test32 />
+  },{
+    id: 33,
+    component: <Test33 />
+  },{
+    id: 34,
+    component: <Test34 />
   }]
 
   export default dict

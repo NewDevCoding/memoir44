@@ -102,6 +102,38 @@ const TroopData = [{
   id: 26,
   name: 'Hobarts Funnies',
   image: require("./troop_images/hobarts.PNG"),
+},{
+  id: 27,
+  name: 'Special Weapons Assets',
+  image: require("./troop_images/special_assets.PNG"),
+},{
+  id: 28,
+  name: 'Anti Tank',
+  image: require("./troop_images/anti_tank.PNG"),
+},{
+  id: 29,
+  name: 'Mortar',
+  image: require("./troop_images/mortor.PNG"),
+},{
+  id: 30,
+  name: 'Special Weapons Assets Late War',
+  image: require("./troop_images/special_assets_late.PNG"),
+},{
+  id: 31,
+  name: 'Ant Tank Late War',
+  image: require("./troop_images/anti_tank_late.PNG"),
+},{
+  id: 32,
+  name: 'Mortar Late War',
+  image: require("./troop_images/mortar_late.PNG"),
+},{
+  id: 33,
+  name: 'Machine Gun Late War',
+  image: require("./troop_images/mg_late.PNG"),
+},{
+  id: 34,
+  name: 'Machine Gun',
+  image: require("./troop_images/mg.PNG"),
 }]
 
   export default TroopData
