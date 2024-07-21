@@ -17,8 +17,7 @@ function Actions() {
     const onSearchChange = (value) => {
       const newData = ActionData && ActionData.filter(
         (cust) =>
-          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()) ||
-          cust.order.includes(value)
+          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
           
       );
       setTempData(newData);

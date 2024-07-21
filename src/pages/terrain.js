@@ -17,8 +17,7 @@ function Terrain() {
     const onSearchChange = (value) => {
       const newData = TerrainData && TerrainData.filter(
         (cust) =>
-          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase()) ||
-          cust.order.includes(value)
+          cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
           
       );
       setTempData(newData);
