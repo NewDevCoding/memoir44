@@ -1,126 +1,171 @@
+const Test26 = () => {
+  return (
+    <div>Hobarts</div>
+          
+    
+  )
+}
+const Test25 = () => {
+  return (
+    <div>Screeming Meemies</div>
+          
+    
+  )
+}
+const Test24 = () => {
+  return (
+    <div>Tank Destroyers</div>
+          
+    
+  )
+}
+const Test23 = () => {
+  return (
+    <div>Heavy Anti Tank Guns</div>
+          
+    
+  )
+}
+const Test22 = () => {
+  return (
+    <div>Depleted Units</div>
+          
+    
+  )
+}
+const Test21 = () => {
+  return (
+    <div>Brandenburgers</div>
+          
+    
+  )
+}
+const Test20 = () => {
+  return (
+    <div>Command Cars</div>
+          
+    
+  )
+}
+const Test19 = () => {
+  return (
+    <div>Long Range Patrol Cars</div>
+          
+    
+  )
+}
 const Test18 = () => {
   return (
-    <div>Test18</div>
+    <div>Half Tracks</div>
           
     
   )
 }
 const Test17 = () => {
   return (
-    <div>Test17</div>
+    <div>Supply Trucks</div>
           
     
   )
 }
 const Test16 = () => {
   return (
-    <div>Test16</div>
+    <div>Tigers</div>
           
     
   )
 }
 const Test15 = () => {
   return (
-    <div>Test15</div>
+    <div>Landing Craft</div>
           
     
   )
 }
 const Test14 = () => {
   return (
-    <div>Test14</div>
+    <div>Mobile Artillery</div>
           
     
   )
 }
 const Test13 = () => {
   return (
-    <div>Test13</div>
+    <div>Flame Thrower Tanks</div>
           
     
   )
 }
 const Test12 = () => {
   return (
-    <div>Test12</div>
+    <div>Destroyers</div>
           
     
   )
 }
 const Test11 = () => {
   return (
-    <div>Test11</div>
+    <div>Aricraft Carriers</div>
           
     
   )
 }
 const Test10 = () => {
   return (
-    <div>Test10</div>
+    <div>Snipers</div>
           
     
   )
 }
 const Test9 = () => {
   return (
-    <div>Test9</div>
+    <div>SKi Troops</div>
           
     
   )
 }
 const Test8 = () => {
   return (
-    <div>Test8</div>
+    <div>Cavalry</div>
           
     
   )
 }
 const Test7 = () => {
   return (
-    <div>Test7</div>
+    <div>Armored Trains</div>
           
     
   )
 }
-
 const Test6 = () => {
   return (
-    <div>Test6</div>
+    <div>Supply Trains</div>
   )
 }
-
-  
 const Test5 = () => {
     return (
-      <div>Test5</div>
+      <div>Trains</div>
     )
   }
-  
-  
 const Test4 = () => {
     return (
-      <div>Test4</div>
+      <div>Combat Engineers</div>
     )
   }
-  
-  
 const Test3 = () => {
     return (
-      <div>Test3</div>
+      <div>Big Guns</div>
     )
   }
-  
-  
 const Test2 = () => {
     return (
-      <div>Test2</div>
+      <div>Specialized Units</div>
     )
   }
-  
-  
 const Test1 = () => {
     return (
-      <div>Test1</div>
+      <div>Standard Units</div>
     )
   }
   
@@ -178,6 +223,30 @@ const Test1 = () => {
   },{
     id: 18,
     component: <Test18 />
+  },{
+    id: 19,
+    component: <Test19 />
+  },{
+    id: 20,
+    component: <Test20 />
+  },{
+    id: 21,
+    component: <Test21 />
+  },{
+    id: 22,
+    component: <Test22 />
+  },{
+    id: 23,
+    component: <Test23 />
+  },{
+    id: 24,
+    component: <Test24 />
+  },{
+    id: 25,
+    component: <Test25 />
+  },{
+    id: 26,
+    component: <Test26 />
   }]
 
   export default dict
