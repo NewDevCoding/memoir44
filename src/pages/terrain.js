@@ -42,7 +42,7 @@ function Terrain() {
         {tempData && tempData.map((customer, index) => (
           
           <Link to={`/terrain/terraincard/${customer.id}`}>
-            <Card userInfo={customer} key={index}/>
+            <Card userInfo={customer.image} key={index}/>
           </Link>
         ))}
         </div>
