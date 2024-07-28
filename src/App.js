@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 import Post from './pages/post';
 import ScrollToTop from './ScrollToTop';
 import Actions from './pages/actions';
+import TerrainPost from './pages/terrainPost';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="/scenarios" element={<Scenarios />} />
           <Route path="/tactics" element={<Tactics />} />
           <Route path="/abacus" element={<Abacus />} />
-          <Route path="/terrain/terraincard/:id" element={<Post />} />
+          <Route path="/terrain/terraincard/:id" element={<TerrainPost />} />
           <Route path="/troops/troopcard/:id" element={<Post />} />
           <Route path="/actions/actioncard/:id" element={<Post />} />
         </Routes>

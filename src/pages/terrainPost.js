@@ -4,7 +4,7 @@ import dict from './troop_dict';
 
 
 
-const Post = () => {
+const TerrainPost = () => {
     const { id } = useParams()
     
    console.log(id) 
@@ -19,4 +19,4 @@ const Post = () => {
   )
 }
 
-export default Post
+export default TerrainPost

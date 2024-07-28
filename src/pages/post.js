@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import dict from './troop_dict';
+import terrainDict from './terrain_dict'
 
 
 
@@ -10,7 +10,7 @@ const Post = () => {
     
    console.log(id)
   
-    const post = dict.filter(customer => customer.id === parseInt(id))
+    const post = terrainDict.filter(customer => customer.id === parseInt(id))
   
     
     

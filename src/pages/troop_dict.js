@@ -201,7 +201,7 @@ const Test6 = () => {
 }
 const Test5 = () => {
     return (
-      <div>Trains</div>
+      <div>Trainss</div>
     )
   }
 
@@ -210,11 +210,7 @@ const Test5 = () => {
 
 const Test4 = () => {
     return (
-      <>
-      <img src=""></img>
-      <div>Big Guns fire at a range of 8 hexes, at dice values of 3-3,2-2,1-1-1-1</div>
-      </>
-      
+      <div>Combat Engineers</div>      
     )
   }
 
@@ -223,7 +219,7 @@ const Test4 = () => {
 
 const Test3 = () => {
     return (
-      <div>Big Guns</div>
+      <div>Big Guns fire at a range of 8 hexes, at dice values of 3-3,2-2,1-1-1-1</div>
     )
   }
 const Test2 = () => {
