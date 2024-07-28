@@ -204,11 +204,23 @@ const Test5 = () => {
       <div>Trains</div>
     )
   }
+
+
+
+
 const Test4 = () => {
     return (
-      <div>Combat Engineers</div>
+      <>
+      <img src=""></img>
+      <div>Big Guns fire at a range of 8 hexes, at dice values of 3-3,2-2,1-1-1-1</div>
+      </>
+      
     )
   }
+
+
+
+
 const Test3 = () => {
     return (
       <div>Big Guns</div>
