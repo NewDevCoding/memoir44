@@ -1,0 +1,24 @@
+/* CSS for the overlay effect */
+.gallery-container {
+    position: relative; /* Container for images */
+  }
+  
+  .overlay {
+    position: fixed; /* Overlay covering the entire screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .selected-image {
+    /* max-width: 80%; /* Adjust the size of the selected image 
+    max-height: 80%; */
+    width: 650px;
+    height: 55%;
+  }
+  

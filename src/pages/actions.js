@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import ActionData from './ActionData'
 import Card from './card'
 import "./CSSpages/troops.css"
+import "./gallery.css"
 import { Link } from "react-router-dom"
 
 
@@ -21,10 +22,12 @@ function Actions() {
           
       );
       setTempData(newData);
-      console.log(tempData)
+    };
+    const [selectedImage, setSelectedImage] = useState(null);
+    const handleImageClick = (image) => {
+        setSelectedImage(image);
     };
     
-    // tempData.map(user => console.log(user.id))
     return (
      <>
         <div className='searchbar-comp'>
@@ -40,10 +43,15 @@ function Actions() {
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
           
-          <Link to={`/actions/actioncard/${customer.id}`}>
+          <div onClick={() => setSelectedImage(customer.image)}>
             <Card userInfo={customer.image} key={index}/>
-          </Link>
+          </div>
         ))}
+        {selectedImage && (
+                <div className="overlay" onClick={() => setSelectedImage(null)}>
+                  <img src={selectedImage} alt="Selected Image" className="selected-image" />
+                </div>
+          )}
         </div>
         </>
     );

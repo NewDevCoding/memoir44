@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import TroopData from './TroopData'
+import TroopData from "./TroopData"
 import Card from './card'
 import { Link } from 'react-router-dom'
 import "./CSSpages/troops.css"
@@ -25,6 +25,7 @@ function Troops() {
       );
       setTempData(newData);
     };
+   
 
     return (
       <>
@@ -38,7 +39,6 @@ function Troops() {
           onChange={(e) => onSearchChange(e.target.value)}
         />
         </div>
-
         <div className='display-container'>
           {tempData && tempData.map((customer, index) => (
           <Link to={`/troops/troopcard/${customer.id}`}>

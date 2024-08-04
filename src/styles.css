@@ -12,6 +12,11 @@ body {
 }
 
 
+ul li {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .nav {
     background-color: #A6AC54;
     color: black;
