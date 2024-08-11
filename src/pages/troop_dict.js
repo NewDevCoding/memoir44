@@ -211,7 +211,9 @@ const Test4 = () => {
   }
 const Test3 = () => {
     return (
-      <div>Big Guns fire at a range of 8 hexes, at dice values of 3-3,2-2,1-1-1-1</div>
+      <div>
+        <img src={require("./component_troop_images/long_tom_component")}></img>
+      </div>
     )
   }
 const Test2 = () => {
