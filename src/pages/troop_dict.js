@@ -1,334 +1,430 @@
-const Test34 = () => {
+
+import "./CSSpages/troop_dict_css.css"
+
+const MachineGun = () => {
   return (
-    <div>Machine Gun</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/machine_gun_header.PNG")}></img>
+      <img src={require("./component_troop_images/machine_gun_early_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test33 = () => {
+const MachineGunLateWar = () => {
   return (
-    <div>Machine Gun Late War</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/machine_gun_header.PNG")}></img>
+      <img src={require("./component_troop_images/machine_gun_late_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test32 = () => {
+const MortarLateWar = () => {
   return (
-    <div>Mortar Late War</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/mortor_header.PNG")}></img>
+      <img src={require("./component_troop_images/mortor_late_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test31 = () => {
+const AntiTankLateWar = () => {
   return (
-    <div>Anti Tank Late War</div>
+    <div>
+      <img src={require("./component_troop_images/anti_tank_late_component.jpg")}></img>
+    </div>
           
     
   )
 }
-const Test30 = () => {
+const SpecialWeaponsAssetsLateWar = () => {
   return (
-    <div>Special Weapons Assets Late War</div>
+    <div>
+      <img src={require("./component_troop_images/swas_late_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test29 = () => {
+const Mortar = () => {
   return (
-    <div>Mortar</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/mortor_header.PNG")}></img>
+      <img src={require("./component_troop_images/mortor_early_component1.PNG")}></img>
+      <img src={require("./component_troop_images/mortor_early_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test28 = () => {
+const AntiTankGuns = () => {
   return (
-    <div>Anti Tank Guns</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/anti_tank_component.PNG")}></img>
+      <img src={require("./component_troop_images/anti_tank_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test27 = () => {
+const SpecialWeaponsAssets = () => {
   return (
-    <div>Special Weapons Assets</div>
+    <div>
+      <img src={require("./component_troop_images/swas_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test26 = () => {
+const HobartsFunnies = () => {
   return (
-    <div>Hobarts Funnies</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/funnies_component1.PNG")}></img>
+      <img src={require("./component_troop_images/funnies_component2.PNG")}></img>
+      <img src={require("./component_troop_images/funnies_component3.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test25 = () => {
+const NebelWerfer = () => {
   return (
-    <div>Screeming Meemies</div>
+    <div>
+      <img src={require("./component_troop_images/nebelwerfer_component_1.PNG")}></img>
+      <img src={require("./component_troop_images/nebelwerfer_component_2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test24 = () => {
+const TankDestroyers = () => {
   return (
-    <div>Tank Destroyers</div>
+    <div>
+      <img src={require("./component_troop_images/tank_destroyer_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test23 = () => {
+const HeavyAT = () => {
   return (
-    <div>Heavy Anti Tank Guns</div>
+    <div>
+      <img src={require("./component_troop_images/heavy_at_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test22 = () => {
+const DepletedUnits = () => {
   return (
     <div>Depleted Units</div>
           
     
   )
 }
-const Test21 = () => {
+const Brandenburgers = () => {
   return (
     <div>Brandenburgers</div>
           
     
   )
 }
-const Test20 = () => {
+const CommandCars = () => {
   return (
-    <div>Command Cars</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/command_cars_component1.PNG")}></img>
+      <img src={require("./component_troop_images/command_cars_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test19 = () => {
+const LongRangePatrolCars= () => {
   return (
-    <div>Long Range Patrol Cars</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/patrol_cars_component1.PNG")}></img>
+      <img src={require("./component_troop_images/patrol_cars_component2.PNG")}></img>
+      <img src={require("./component_troop_images/patrol_cars_component3.PNG")}></img>
+      
+    </div>
           
     
   )
 }
-const Test18 = () => {
+const HalfTracks = () => {
   return (
-    <div>Half Tracks</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/half_track_component1.PNG")}></img>
+      <img src={require("./component_troop_images/half_track_component2.PNG")}></img>
+      <img src={require("./component_troop_images/half_track_component3.PNG")}></img>
+      <img src={require("./component_troop_images/half_track_component35.PNG")}></img>
+      <img src={require("./component_troop_images/half_track_component4.PNG")}></img>
+      <img src={require("./component_troop_images/half_track_component5.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test17 = () => {
+const SupplyTrucks = () => {
   return (
-    <div>Supply Trucks</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/supply_trucks_component1.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component2.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component3.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component4.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component5.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component6.PNG")}></img>
+      <img src={require("./component_troop_images/supply_truck_component7.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test16 = () => {
+const Tigers = () => {
   return (
-    <div>Tigers</div>
+    <div>
+      <img src={require("./component_troop_images/tiger_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test15 = () => {
+const LandingCraft = () => {
   return (
-    <div>Landing Craft</div>
+    <div>
+      <img src={require("./component_troop_images/landing_craft_component1.PNG")}></img>
+      <img src={require("./component_troop_images/landing_craft_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test14 = () => {
+const MobileArtillery = () => {
   return (
-    <div>Mobile Artillery</div>
+    <div>
+      <img src={require("./component_troop_images/mobile_artillery_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test13 = () => {
+const FlameThrowerTanks = () => {
   return (
-    <div>Flame Thrower Tanks</div>
+    <div>
+      <img src={require("./component_troop_images/flame_tanks_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test12 = () => {
+const Destroyers = () => {
   return (
-    <div>Destroyers</div>
+    <div>
+      <img src={require("./component_troop_images/destroyers_component1.PNG")}></img>
+      <img src={require("./component_troop_images/destroyers_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test11 = () => {
+const AricraftCarriers = () => {
   return (
-    <div>Aricraft Carriers</div>
+    <div>
+      <img src={require("./component_troop_images/carriers_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test10 = () => {
+const Snipers = () => {
   return (
-    <div>Snipers</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/sniper_component1.PNG")}></img>
+      <img src={require("./component_troop_images/sniper_component2.PNG")}></img>
+      <img src={require("./component_troop_images/sniper_component3.PNG")}></img>
+      <img src={require("./component_troop_images/sniper_component4.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test9 = () => {
+const SKiTroops = () => {
   return (
-    <div>SKi Troops</div>
+    <div className="centered">
+      <img src={require("./component_troop_images/ski_troop_component1.PNG")}></img>
+      <img src={require("./component_troop_images/ski_troop_component2.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test8 = () => {
+const Cavalry = () => {
   return (
-    <div>Cavalry</div>
+    <div>
+      <img src={require("./component_troop_images/cavalry_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test7 = () => {
+const ArmoredTrains = () => {
   return (
-    <div>Armored Trains</div>
+    <div>
+      <img src={require("./component_troop_images/armored_train_component.PNG")}></img>
+    </div>
           
     
   )
 }
-const Test6 = () => {
+const SupplyTrains = () => {
   return (
-    <div>Supply Trains</div>
+    <div>
+      <img src={require("./component_troop_images/supply_train_reinforcements_component.PNG")}></img>
+    </div>
   )
 }
-const Test5 = () => {
-    return (
-      <div>Trainss</div>
-    )
-  }
-const Test4 = () => {
-    return (
-      <div>Combat Engineers</div>      
-    )
-  }
-const Test3 = () => {
+const Trains = () => {
     return (
       <div>
-        <img src={require("./component_troop_images/long_tom_component")}></img>
+        <img src={require("./component_troop_images/trains_component.PNG")}></img>
       </div>
     )
   }
-const Test2 = () => {
+const CombatEngineers = () => {
+    return (
+      <div>
+        <img src={require("./component_troop_images/combat_engineers_component.PNG")}></img>
+      </div>      
+    )
+  }
+const BigGuns = () => {
+    return (
+      <div>
+        <img src={require("./component_troop_images/long_tom_component.PNG")}></img>
+      </div>
+    )
+  }
+const SpecializedUnits = () => {
     return (
       <div>Specialized Units</div>
     )
   }
-const Test1 = () => {
+const StandardUnits = () => {
     return (
-      <div>Standard Units</div>
+      <div className="centered">
+        <img src={require("./component_troop_images/standard_units_component1.PNG")}></img>
+        <img src={require("./component_troop_images/standard_units_component2.PNG")}></img>
+        <img src={require("./component_troop_images/standard_units_component3.PNG")}></img>
+        <img src={require("./component_troop_images/standard_units_component4.PNG")}></img>
+      </div>
     )
   }
   
   let dict = [{
     id: 1,
-    component: <Test1 />
+    component: <StandardUnits />
   },{
     id: 2,
-    component: <Test2 />
+    component: <SpecializedUnits />
   },{
     id: 3,
-    component: <Test3 />
+    component: <BigGuns />
   },{
     id: 4,
-    component: <Test4 />
+    component: <CombatEngineers />
   },{
     id: 5,
-    component: <Test5 />
+    component: <Trains />
   },{
     id: 6,
-    component: <Test6 />
+    component: <SupplyTrains />
   },{
     id: 7,
-    component: <Test7 />
+    component: <ArmoredTrains />
   },{
     id: 8,
-    component: <Test8 />
+    component: <Cavalry />
   },{
     id: 9,
-    component: <Test9 />
+    component: <SKiTroops />
   },{
     id: 10,
-    component: <Test10 />
+    component: <Snipers />
   },{
     id: 11,
-    component: <Test11 />
+    component: <AricraftCarriers />
   },{
     id: 12,
-    component: <Test12 />
+    component: <Destroyers />
   },{
     id: 13,
-    component: <Test13 />
+    component: <FlameThrowerTanks />
   },{
     id: 14,
-    component: <Test14 />
+    component: <MobileArtillery />
   },{
     id: 15,
-    component: <Test15 />
+    component: <LandingCraft />
   },{
     id: 16,
-    component: <Test16 />
+    component: <Tigers/>
   },{
     id: 17,
-    component: <Test17 />
+    component: <SupplyTrucks />
   },{
     id: 18,
-    component: <Test18 />
+    component: <HalfTracks />
   },{
     id: 19,
-    component: <Test19 />
+    component: <LongRangePatrolCars />
   },{
     id: 20,
-    component: <Test20 />
+    component: <CommandCars />
   },{
     id: 21,
-    component: <Test21 />
+    component: <Brandenburgers />
   },{
     id: 22,
-    component: <Test22 />
+    component: <DepletedUnits />
   },{
     id: 23,
-    component: <Test23 />
+    component: <HeavyAT />
   },{
     id: 24,
-    component: <Test24 />
+    component: <TankDestroyers />
   },{
     id: 25,
-    component: <Test25 />
+    component: <NebelWerfer />
   },{
     id: 26,
-    component: <Test26 />
+    component: <HobartsFunnies />
   },{
     id: 27,
-    component: <Test27 />
+    component: <SpecialWeaponsAssets />
   },{
     id: 28,
-    component: <Test28 />
+    component: <AntiTankGuns />
   },{
     id: 29,
-    component: <Test29 />
+    component: <Mortar />
   },{
     id: 30,
-    component: <Test30 />
+    component: <SpecialWeaponsAssetsLateWar />
   },{
     id: 31,
-    component: <Test31 />
+    component: <AntiTankLateWar />
   },{
     id: 32,
-    component: <Test32 />
+    component: <MortarLateWar />
   },{
     id: 33,
-    component: <Test33 />
+    component: <MachineGunLateWar />
   },{
     id: 34,
-    component: <Test34 />
+    component: <MachineGun />
   }]
 
   export default dict
