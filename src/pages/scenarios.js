@@ -1,12 +1,15 @@
 import React from 'react'
+import PDFViewer from './PDFViewer'
+import testPDF from './Saving_Private_Ryan.pdf'
 
 
-const scenarios = () => {
+const Scenarios = () => {
+   
   return (
     <div>
-      scenarios
+      <PDFViewer testPDF={testPDF} />
     </div>
   )
 }
 
-export default scenarios
+export default Scenarios
