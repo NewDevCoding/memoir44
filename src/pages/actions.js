@@ -28,6 +28,7 @@ function Actions() {
         setSelectedImage(image);
     };
     
+
     return (
      <>
         <div className='searchbar-comp'>
@@ -43,13 +44,15 @@ function Actions() {
         <div className='display-container'>
         {tempData && tempData.map((customer, index) => (
           
-          <div onClick={() => setSelectedImage(customer.image)}>
+      
+          
+          <div onClick={() => setSelectedImage(customer.image2)}>
             <Card userInfo={customer.image} key={index}/>
           </div>
         ))}
         {selectedImage && (
-                <div className="overlay" onClick={() => setSelectedImage(null)}>
-                  <img src={selectedImage} alt="Selected Image" className="selected-image" />
+                <div className='overlay' onClick={() => setSelectedImage(null)}>
+                  <img src={selectedImage} alt="Selected Image" />
                 </div>
           )}
         </div>
