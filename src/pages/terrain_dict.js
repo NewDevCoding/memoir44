@@ -1,541 +1,685 @@
-const Test1 = () => {
+import "./CSSpages/troop_dict_css.css"
+
+const Beaches = () => {
     return (
-        <div>beaches</div>
+        <div>
+            <img src={require("./terrain_images_component/beaches.PNG")}></img>
+        
+        </div>
     )
 }
-const Test2 = () => {
+const Bunkers = () => {
     return (
-        <div>bunkers</div>
+        <div>
+            <img src={require("./terrain_images_component/bunkers.PNG")}></img>
+        </div>
     )
 }
-const Test3 = () => {
+const Forests = () => {
     return (
-        <div>firests</div>
+        <div>
+            <img src={require("./terrain_images_component/forests.PNG")}></img>
+        </div>
     )
 }
-const Test4 = () => {
+const Hedgerows = () => {
     return (
-        <div>hedgerows</div>
+        <div>
+            <img src={require("./terrain_images_component/hedgerows.PNG")}></img>
+        </div>
     )
 }
-const Test5 = () => {
+const Hedgehogs = () => {
     return (
-        <div>hedgehogs</div>
+        <div>
+            <img src={require("./terrain_images_component/hedgerows.PNG")}></img>
+        </div>
     )
 }
-const Test6 = () => {
+const Hills = () => {
     return (
-        <div>hills</div>
+        <div>
+            <img src={require("./terrain_images_component/hills.PNG")}></img>
+        </div>
     )
 }
-const Test7 = () => {
+const Oceans = () => {
     return (
-        <div>oceans</div>
+        <div>
+            <img src={require("./terrain_images_component/oceans.PNG")}></img>
+        </div>
     )
 }
-const Test8 = () => {
+const River = () => {
     return (
-        <div>rivers and waterways</div>
+        <div>
+            <img src={require("./terrain_images_component/rivers.PNG")}></img>
+        </div>
     )
 }
-const Test9 = () => {
+const Bridges = () => {
     return (
-        <div>bridges</div>
+        <div className="single-card">
+            <img src={require("./terrain_images_component/bridges.PNG")}></img>
+        </div>
     )
 }
-const Test10 = () => {
+const Sandbags = () => {
     return (
-        <div>sandbags</div>
+        <div>
+            <img src={require("./terrain_images_component/sandbags.PNG")}></img>
+        </div>
     )
 }
-const Test11 = () => {
+const Cliffs = () => {
     return (
-        <div>cliffs and bluffs</div>
+        <div className="single-card">
+            <img src={require("./terrain_images_component/cliffs_bluffs.PNG")}></img>
+        </div>
     )
 }
-const Test12 = () => {
+const SeaWall = () => {
     return (
-        <div>sea wall</div>
+        <div>
+            <img src={require("./terrain_images_component/sea_wall.PNG")}></img>
+        </div>
     )
 }
-const Test13 = () => {
+const SteepHills = () => {
     return (
-        <div>steep hills</div>
+        <div>
+            <img src={require("./terrain_images/steep_hills.PNG")}></img>
+        </div>
     )
-}
-const Test14 = () => {
+} 
+const Towns = () => {
     return (
-        <div>towns and villages</div>
+        <div>
+            <img src={require("./terrain_images_component/towns_villages.PNG")}></img>
+        </div>
     )
 }
-const Test15 = () => {
+const Wire = () => {
     return (
-        <div>wire</div>
+        <div>
+            <img src={require("./terrain_images_component/wire.PNG")}></img>
+        </div>
     )
 }
-const Test16 = () => {
+const Airfields = () => {
     return (
-        <div>airfields</div>
+        <div>
+            <img src={require("./terrain_images_component/airfield.PNG")}></img>
+        </div>
     )
 }
-const Test17 = () => {
+const Barracks = () => {
     return (
-        <div>barracks</div>
+        <div>
+            <img src={require("./terrain_images_component/barracks.PNG")}></img>
+        </div>
     )
 }
-const Test18 = () => {
+const Cemeteries = () => {
     return (
-        <div>cemeteries</div>
+        <div>
+            <img src={require("./terrain_images_component/cemetery.PNG")}></img>
+        </div>
     )
 }
-const Test19 = () => {
+const Churches = () => {
     return (
-        <div>churches</div>
+        <div>
+            <img src={require("./terrain_images_component/church.PNG")}></img>
+        </div>
     )
 }
-const Test20 = () => {
+const Dams = () => {
     return (
-        <div>dams</div>
+        <div>
+            <img src={require("./terrain_images_component/dams.PNG")}></img>
+        </div>
     )
 }
-const Test21 = () => {
+const Factory = () => {
     return (
-        <div>factory complex</div>
+        <div>
+            <img src={require("./terrain_images_component/factory.PNG")}></img>
+        </div>
     )
 }
-const Test22 = () => {
+const FieldBunkers = () => {
     return (
-        <div>field bunkers</div>
+        <div>
+            <img src={require("./terrain_images_component/field_bunkers.PNG")}></img>
+        </div>
     )
 }
-const Test23 = () => {
+const FloodedFields = () => {
     return (
-        <div>flooded fields</div>
+        <div>
+            <img src={require("./terrain_images_component/flooded_fields.PNG")}></img>
+        </div>
     )
 }
-const Test24 = () => {
+const Fortresses = () => {
     return (
-        <div>fortresses</div>
+        <div>
+            <img src={require("./terrain_images_component/fortress.PNG")}></img>
+        </div>
     )
 }
-const Test25 = () => {
+const HighGround = () => {
     return (
-        <div>high ground</div>
+        <div>
+            <img src={require("./terrain_images_component/high_ground.PNG")}></img>
+        </div>
     )
 }
-const Test26 = () => {
+const Lake = () => {
     return (
-        <div>lake</div>
+        <div>
+            <img src={require("./terrain_images_component/lake.PNG")}></img>
+        </div>
     )
 }
-const Test27 = () => {
+const Lighthouse = () => {
     return (
-        <div>lighthouses</div>
+        <div>
+            <img src={require("./terrain_images_component/lighthouse.PNG")}></img>
+        </div>
     )
 }
-const Test28 = () => {
+const Marshes = () => {
     return (
-        <div>marshes</div>
+        <div>
+            <img src={require("./terrain_images_component/marshes.PNG")}></img>
+        </div>
     )
 }
-const Test29 = () => {
+const Minefields = () => {
     return (
-        <div>minefields</div>
+        <div className="centered">
+            <img src={require("./terrain_images_component/minefields.PNG")}></img>
+            <img src={require("./terrain_images_component/minefields2.PNG")}></img>
+        </div>
     )
 }
-const Test30 = () => {
+const Mountains = () => {
     return (
-        <div>mountains</div>
+        <div>
+            <img src={require("./terrain_images_component/mountains.PNG")}></img>
+        </div>
     )
 }
-const Test31 = () => {
+const Oasis = () => {
     return (
-        <div>oasis</div>
+        <div>
+            <img src={require("./terrain_images_component/oasis_deserty.PNG")}></img>
+        </div>
     )
 }
-const Test32 = () => {
+const PalmForests = () => {
     return (
-        <div>palm forests </div>
+        <div>
+            <img src={require("./terrain_images_component/palm_forests.PNG")}></img>
+        </div>
     )
 }
-const Test33 = () => {
+const Pontoons = () => {
     return (
-        <div>pontoon bridges</div>
+        <div>
+            <img src={require("./terrain_images_component/pontoon_bridge.PNG")}></img>
+        </div>
     )
 }
-const Test34 = () => {
+const PowerPlants = () => {
     return (
-        <div>power plants</div>
+        <div>
+            <img src={require("./terrain_images_component/power_plant.PNG")}></img>
+        </div>
     )
 }
-const Test35 = () => {
+const PrisonCamps = () => {
     return (
-        <div>Prison camps</div>
+        <div>
+            <img src={require("./terrain_images_component/prison_camp.PNG")}></img>
+        </div>
     )
 }
-const Test36 = () => {
+const RadarStations = () => {
     return (
-        <div>Radar stations</div>
+        <div>
+            <img src={require("./terrain_images_component/radar_station.PNG")}></img>
+        </div>
     )
 }
-const Test37 = () => {
+const RailroadBridges = () => {
     return (
-        <div>Railroad bridges</div>
+        <div>
+            <img src={require("./terrain_images_component/railroad_bridge.PNG")}></img>
+        </div>
     )
 }
-const Test38 = () => {
+const RailroadTracks = () => {
     return (
-        <div>Railroad tracks</div>
+        <div>
+            <img src={require("./terrain_images_component/railroad_tracks.PNG")}></img>
+        </div>
     )
 }
-const Test39 = () => {
+const RailroadStations = () => {
     return (
-        <div>Railroad Stations</div>
+        <div>
+            <img src={require("./terrain_images_component/railroad_station.PNG")}></img>
+        </div>
     )
 }
-const Test40 = () => {
+const RoadBlocks = () => {
     return (
-        <div>Road Block</div>
+        <div>
+            <img src={require("./terrain_images_component/roadblocks.PNG")}></img>
+        </div>
     )
 }
-const Test41 = () => {
+const Fords = () => {
     return (
-        <div>Fords and Fordable Rivers</div>
+        <div>
+            <img src={require("./terrain_images_component/river_ford.PNG")}></img>
+        </div>
     )
 }
-const Test42 = () => {
+const Roads = () => {
     return (
-        <div>Roads</div>
+        <div className="centered">
+            <img src={require("./terrain_images_component/raods.PNG")}></img>
+            <img src={require("./terrain_images_component/raods2.PNG")}></img>
+        </div>
     )
 }
-const Test43 = () => {
+const SupplyDepots = () => {
     return (
-        <div>Supply Depots</div>
+        <div>
+            <img src={require("./terrain_images_component/supply_depot.PNG")}></img>
+        </div>
     )
 }
-const Test44 = () => {
+const Wadis = () => {
     return (
-        <div>Wadis and gullies</div>
+        <div className="centered">
+            <img src={require("./terrain_images_component/wadis.PNG")}></img>
+            <img src={require("./terrain_images_component/wadis2.PNG")}></img>
+        </div>
     )
 }
-const Test45 = () => {
+const CityRuins = () => {
     return (
-        <div>City Ruins</div>
+        <div>
+            <img src={require("./terrain_images_component/city_ruins.PNG")}></img>
+        </div>
     )
 }
-const Test46 = () => {
+const DragonsTeeth = () => {
     return (
-        <div>Dragons Teeth</div>
+        <div>
+            <img src={require("./terrain_images_component/dragons_teeth.PNG")}></img>
+        </div>
     )
 }
-const Test47 = () => {
+const FrozenRivers = () => {
     return (
-        <div>Frozen rivers</div>
+        <div>
+            <img src={require("./terrain_images_component/frozen_river.PNG")}></img>
+        </div>
     )
 }
-const Test48 = () => {
+const HillsForests = () => {
     return (
-        <div>Hills with forests</div>
+        <div>
+            <img src={require("./terrain_images_component/hills_forest.PNG")}></img>
+        </div>
     )
 }
-const Test49 = () => {
+const HillsVillages = () => {
     return (
-        <div>Hills with villages</div>
+        <div>
+            <img src={require("./terrain_images_component/hills_forest.PNG")}></img>
+        </div>
     )
 }
-const Test50 = () => {
+const Ravines = () => {
     return (
-        <div>Ravines</div>
+        <div>
+            <img src={require("./terrain_images_component/ravines.PNG")}></img>
+        </div>
     )
 }
-const Test51 = () => {
+const Trenches = () => {
     return (
-        <div>Trenches</div>
+        <div>
+            <img src={require("./terrain_images_component/trenches.PNG")}></img>
+        </div>
     )
 }
-const Test52 = () => {
+const CavesHills = () => {
     return (
-        <div>Caves on Hills</div>
+        <div>
+            <img src={require("./terrain_images_component/caves_hills.PNG")}></img>
+            <img src={require("./terrain_images_component/caves_hills2.PNG")}></img>
+        </div>
     )
 }
-const Test53 = () => {
+const CavesMountains = () => {
     return (
-        <div>Caves on Mountains</div>
+        <div>
+            <img src={require("./terrain_images_component/caves_hills.PNG")}></img>
+            <img src={require("./terrain_images_component/caves_hills2.PNG")}></img>
+        </div>
     )
 }
-const Test54 = () => {
+const FishPond = () => {
     return (
-        <div>Fish Ponds</div>
+        <div>
+            <img src={require("./terrain_images_component/fish_pond.PNG")}></img>
+        </div>
     )
 }
-const Test55 = () => {
+const Hospitals = () => {
     return (
-        <div>Hospitals</div>
+        <div>
+            <img src={require("./terrain_images_component/hospital1.PNG")}></img>
+            <img src={require("./terrain_images_component/hospital2.PNG")}></img>
+        </div>
     )
 }
-const Test56 = () => {
+const HQS = () => {
     return (
-        <div>HQ supply Tents</div>
+        <div>
+            <img src={require("./terrain_images_component/hospital1.PNG")}></img>
+            <img src={require("./terrain_images_component/hospital2.PNG")}></img>
+        </div>
     )
 }
-const Test57 = () => {
+const Jungles = () => {
     return (
-        <div>Jungles</div>
+        <div>
+            <img src={require("./terrain_images_component/jungles.PNG")}></img>
+        </div>
     )
 }
-const Test58 = () => {
+const LaborCamps = () => {
     return (
-        <div>Labor Camps</div>
+        <div>
+            <img src={require("./terrain_images_component/labor_camps.PNG")}></img>
+        </div>
     )
 }
-const Test59 = () => {
+const Piers = () => {
     return (
-        <div>Piers</div>
+        <div>
+            <img src={require("./terrain_images_component/piers.PNG")}></img>
+        </div>
     )
 }
-const Test60 = () => {
+const RicePaddies = () => {
     return (
-        <div>Ricec Paddies</div>
+        <div>
+            <img src={require("./terrain_images_component/rice_paddies.PNG")}></img>
+        </div>
     )
 }
-const Test61 = () => {
+const FordableStreams = () => {
     return (
-        <div>Fordable Streams</div>
+        <div>
+            <img src={require("./terrain_images/fordable_streams.PNG")}></img>
+        </div>
     )
 }
-const Test62 = () => {
+const RopeBridges = () => {
     return (
-        <div>Rope Bridges</div>
+        <div>
+            <img src={require("./terrain_images_component/rope_bridges.PNG")}></img>
+        </div>
     )
 }
-const Test63 = () => {
+const Escarpments = () => {
     return (
-        <div>Escarpments</div>
+        <div>
+            <img src={require("./terrain_images_component/escarpments.PNG")}></img>
+        </div>
     )
 }
-const Test64 = () => {
+const ErgsRidges = () => {
     return (
-        <div>Ergs and Ridges</div>
+        <div>
+            <img src={require("./terrain_images_component/ergs_ridges.PNG")}></img>
+        </div>
     )
 }
-const Test65 = () => {
+const Balkas = () => {
     return (
-        <div>Baltas</div>
+        <div>
+            <img src={require("./terrain_images_component/balkas.PNG")}></img>
+        </div>
     )
 }
-const Test66 = () => {
+const Abatis = () => {
     return (
-        <div>Abatis</div>
+        <div>
+            <img src={require("./terrain_images_component/abatis.PNG")}></img>
+        </div>
     )
 }
-const Test67 = () => {
+const Castle = () => {
     return (
-        <div>Castle</div>
+        <div>
+            <img src={require("./terrain_images_component/castle.PNG")}></img>
+        </div>
     )
 }
 
 const terrainDict = [{
     id: 1,
-    component: <Test1 />
+    component: <Beaches />
 },{
     id: 2,
-    component: <Test2 />
+    component: <Bunkers />
 },{
     id: 3,
-    component: <Test3 />
+    component: <Forests />
 
 },{
     id: 4,
-    component: <Test4 />
+    component: <Hedgerows />
 },{
     id: 5,
-    component: <Test5 />
+    component: <Hedgehogs />
 },{
     id: 6,
-    component: <Test6 />
+    component: <Hills />
 },{
     id: 7,
-    component: <Test7 />
+    component: <Oceans />
 },{
     id: 8,
-    component: <Test8 />
+    component: <River />
 },{
     id: 9,
-    component: <Test9 />
+    component: <Bridges />
 },{
     id: 10,
-    component: <Test10 />
+    component: <Sandbags />
 },{
     id: 11,
-    component: <Test11 />
+    component: <Cliffs />
 },{
     id: 12,
-    component: <Test12 />
+    component: <SeaWall />
 },{
     id: 13,
-    component: <Test13 />
+    component: <SteepHills />
 },{
     id: 14,
-    component: <Test14 />
+    component: <Towns />
 },{
     id: 15,
-    component: <Test15 />
+    component: <Wire />
 },{
     id: 16,
-    component: <Test16 />
+    component: <Airfields />
 },{
     id: 17,
-    component: <Test17 />
+    component: <Barracks />
 },{
     id: 18,
-    component: <Test18 />
+    component: <Cemeteries />
 },{
     id: 19,
-    component: <Test19 />
+    component: <Churches />
 },{
     id: 20,
-    component: <Test20 />
+    component: <Dams />
 },{
     id: 21,
-    component: <Test21 />
+    component: <Factory />
 },{
     id: 22,
-    component: <Test22 />
+    component: <FieldBunkers />
 },{
     id: 23,
-    component: <Test23 />
+    component: <FloodedFields />
 },{
     id: 24,
-    component: <Test24 />
+    component: <Fortresses />
 },{
     id: 25,
-    component: <Test25 />
+    component: <HighGround />
 },{
     id: 26,
-    component: <Test26 />
+    component: <Lake />
 },{
     id: 27,
-    component: <Test27 />
+    component: <Lighthouse />
 },{
     id: 28,
-    component: <Test28 />
+    component: <Marshes />
 },{
     id: 29,
-    component: <Test29 />
+    component: <Minefields />
 },{
     id: 30,
-    component: <Test30 />
+    component: <Mountains />
 },{
     id: 31,
-    component: <Test31 />
+    component: <Oasis />
 },{
     id: 32,
-    component: <Test32 />
+    component: <PalmForests />
 },{
     id: 33,
-    component: <Test33 />
+    component: <Pontoons />
 },{
     id: 34,
-    component: <Test34 />
+    component: <PowerPlants />
 },{
     id: 35,
-    component: <Test35 />
+    component: <PrisonCamps />
 },{
     id: 36,
-    component: <Test36 />
+    component: <RadarStations />
 },{
     id: 37,
-    component: <Test37 />
+    component: <RailroadBridges />
 },{
     id: 38,
-    component: <Test38 />
+    component: <RailroadTracks />
 },{
     id: 39,
-    component: <Test39 />
+    component: <RailroadStations />
 },{
     id: 40,
-    component: <Test40 />
+    component: <RoadBlocks />
 },{
     id: 41,
-    component: <Test41 />
+    component: <Fords />
 },{
     id: 42,
-    component: <Test42 />
+    component: <Roads />
 },{
     id: 43,
-    component: <Test43 />
+    component: <SupplyDepots />
 },{
     id: 44,
-    component: <Test44 />
+    component: <Wadis />
 },{
     id: 45,
-    component: <Test45 />
+    component: <CityRuins />
 },{
     id: 46,
-    component: <Test46 />
+    component: <DragonsTeeth />
 },{
     id: 47,
-    component: <Test47 />
+    component: <FrozenRivers />
 },{
     id: 48,
-    component: <Test48 />
+    component: <HillsForests />
 },{
     id: 49,
-    component: <Test49 />
+    component: <HillsVillages />
 },{
     id: 50,
-    component: <Test50 />
+    component: <Ravines />
 },{
     id: 51,
-    component: <Test51 />
+    component: <Trenches />
 },{
     id: 52,
-    component: <Test52 />
+    component: <CavesHills />
 },{
     id: 53,
-    component: <Test53 />
+    component: <CavesMountains />
 },{
     id: 54,
-    component: <Test54 />
+    component: <FishPond />
 },{
     id: 55,
-    component: <Test55 />
+    component: <Hospitals />
 },{
     id: 56,
-    component: <Test56 />
+    component: <HQS />
 },{
     id: 57,
-    component: <Test57 />
+    component: <Jungles />
 },{
     id: 58,
-    component: <Test58 />
+    component: <LaborCamps />
 },{
     id: 59,
-    component: <Test59 />
+    component: <Piers />
 },{
     id: 60,
-    component: <Test60 />
+    component: <RicePaddies />
 },{
     id: 61,
-    component: <Test61 />
+    component: <FordableStreams />
 },{
     id: 62,
-    component: <Test62 />
+    component: <RopeBridges />
 },{
     id: 63,
-    component: <Test63 />
+    component: <Escarpments />
 },{
     id: 64,
-    component: <Test64 />
+    component: <ErgsRidges />
 },{
     id: 65,
-    component: <Test65 />
+    component: <Balkas />
 },{
     id: 66,
-    component: <Test66 />
+    component: <Abatis />
 },{
     id: 67,
-    component: <Test67 />
+    component: <Castle />
  }]
 
 

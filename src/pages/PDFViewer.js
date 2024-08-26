@@ -10,7 +10,7 @@ const PDFViewer = ({testPDF}) => {
     "pdfjs-dist/build/pdf.worker.mjs",
     import.meta.url
   ).toString();
-//   const testPDF = props.testPDF
+
 
   return (
     <div style={{display: 'flex', justifyContent: 'center'}} className='scenarios'>
