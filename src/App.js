@@ -28,7 +28,6 @@ function App() {
           <Route path="/abacus" element={<Abacus />} />
           <Route path="/terrain/terraincard/:id" element={<TerrainPost />} />
           <Route path="/troops/troopcard/:id" element={<Post />} />
-          <Route path="/actions/actioncard/:id" element={<Post />} />
         </Routes>
       </div>
     </>
