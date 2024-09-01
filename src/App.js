@@ -10,6 +10,7 @@ import Post from './pages/post';
 import ScrollToTop from './ScrollToTop';
 import Actions from './pages/actions';
 import TerrainPost from './pages/terrainPost';
+import ScenarioPost from './pages/ScenarioPost';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/abacus" element={<Abacus />} />
           <Route path="/terrain/terraincard/:id" element={<TerrainPost />} />
           <Route path="/troops/troopcard/:id" element={<Post />} />
+          <Route path="/scenarios/scenario/:id" element={<ScenarioPost />} />
         </Routes>
       </div>
     </>
