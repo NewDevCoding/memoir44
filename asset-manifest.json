@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/memoir44/static/css/main.bf319970.css",
-    "main.js": "/memoir44/static/js/main.f200e7f9.js",
+    "main.css": "/memoir44/static/css/main.39be6c33.css",
+    "main.js": "/memoir44/static/js/main.6616a31e.js",
     "static/media/Breakout_at_Klin.pdf": "/memoir44/static/media/Breakout_at_Klin.dfb6b63754a946da7cc1.pdf",
     "static/media/Suomussalmi.pdf": "/memoir44/static/media/Suomussalmi.6bb9b1a8a2ec18c2027d.pdf",
     "static/media/Red_Barricades_Factory.pdf": "/memoir44/static/media/Red_Barricades_Factory.caab06a3825800496729.pdf",
     "static/media/gates_of_moscow.pdf": "/memoir44/static/media/gates_of_moscow.a3c318596ac606ed6114.pdf",
     "static/media/Breakout_to_Lisyanka.pdf": "/memoir44/static/media/Breakout_to_Lisyanka.996675f88e2810edab3f.pdf",
-    "static/media/Saving_Private_Ryan.pdf": "/memoir44/static/media/Saving_Private_Ryan.75906e15e60b7aecfeb4.pdf",
     "static/media/Bug_River.pdf": "/memoir44/static/media/Bug_River.94f43187755c903bcca8.pdf",
     "static/media/Ponyri.pdf": "/memoir44/static/media/Ponyri.7a8f3de5dc3cb80acc0f.pdf",
     "static/media/pdf.worker.mjs": "/memoir44/static/media/pdf.worker.32867a9d84d060c46875.mjs",
@@ -264,11 +263,11 @@
     "static/media/wadis2.PNG": "/memoir44/static/media/wadis2.7464d06867398ef3290e.PNG",
     "static/media/logo.png": "/memoir44/static/media/logo.756ea700f21759c66642.png",
     "index.html": "/memoir44/index.html",
-    "main.bf319970.css.map": "/memoir44/static/css/main.bf319970.css.map",
-    "main.f200e7f9.js.map": "/memoir44/static/js/main.f200e7f9.js.map"
+    "main.39be6c33.css.map": "/memoir44/static/css/main.39be6c33.css.map",
+    "main.6616a31e.js.map": "/memoir44/static/js/main.6616a31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf319970.css",
-    "static/js/main.f200e7f9.js"
+    "static/css/main.39be6c33.css",
+    "static/js/main.6616a31e.js"
   ]
 }
