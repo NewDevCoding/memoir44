@@ -3,7 +3,7 @@ import ActionData from './ActionData'
 import Card from './card'
 import "./CSSpages/troops.css"
 import "./gallery.css"
-import { Link } from "react-router-dom"
+
 
 
 
@@ -24,9 +24,9 @@ function Actions() {
       setTempData(newData);
     };
     const [selectedImage, setSelectedImage] = useState(null);
-    const handleImageClick = (image) => {
-        setSelectedImage(image);
-    };
+    // const handleImageClick = (image) => {
+    //     setSelectedImage(image);
+    // };
     
 
     return (
@@ -52,7 +52,7 @@ function Actions() {
         ))}
         {selectedImage && (
                 <div className='overlay' onClick={() => setSelectedImage(null)}>
-                  <img src={selectedImage} alt="Selected Image" />
+                  <img src={selectedImage} alt="selected" />
                 </div>
           )}
         </div>

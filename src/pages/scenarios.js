@@ -1,6 +1,4 @@
 import React, {useState} from 'react'
-import PDFViewer from './PDFViewer'
-import testPDF from './Saving_Private_Ryan.pdf'
 import {pdfs} from './pdfDict'
 import './CSSpages/scenarios.css'
 import Card from './card'
@@ -94,19 +92,6 @@ const Scenarios = () => {
     </>
   )
 }
-
-
-{/* <div className='searchbar-comp'>
-          <div>
-          <h2>Search For Scenarios</h2>
-          <input
-            type="search"
-            placeholder="Type something to search..."
-            onChange={(e) => onSearchChange(e.target.value)}
-          />
-        </div>
-
-      </div> */}
 
 
 

@@ -5,7 +5,7 @@ const Card = ({ userInfo }) => {
   const image = userInfo;
   return (
     <div className="card-container" >
-      <img src={image}></img>
+      <img src={image} alt="display"></img>
     </div>
   );
 };
