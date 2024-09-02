@@ -10,12 +10,27 @@ import DropdownFilter from './DropdownFilter';
 
 const Scenarios = () => {
 
+  const inputStyle = {
+    width: "300px",
+    fontSize: "105%",
+    padding: "12px",
+    
+  };
 
   const [filter, setFilter] = useState('all');
+  const [tempData, setTempData] = useState(pdfs)
 
   const handleFilterChange = (selectedFilter) => {
     setFilter(selectedFilter);
-    // Apply your filtering logic here
+  };
+
+  const onSearchChange = (value) => {
+    const newData = pdfs && pdfs.filter(
+      (cust) =>
+        cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
+    );
+    setTempData(newData);
+    console.log(tempData)
   };
 
   const allTrue = filter === 'all';
@@ -32,13 +47,34 @@ const Scenarios = () => {
    
   return (
     <>
-    <div className='dropdown'>
-      <h1>Scenarios</h1>
-      <DropdownFilter options={options} onFilterChange={handleFilterChange} />
-      {/* Render your filtered data here */}
+    <div className='parent'>
+
+
+      <div className='dropdown'>
+        <h1>Filter Scenarios</h1>
+          <DropdownFilter options={options} onFilterChange={handleFilterChange} />
+          {/* Render your filtered data here */}
+      </div>
+
+        <div className='searchbar'>
+          <div>
+          
+          <input
+            type="search"
+            placeholder="Search for a scenario..."
+            style={inputStyle}
+            onChange={(e) => onSearchChange(e.target.value)}
+          />
+          </div>
+        </div>
+
+      
+
+      
+
     </div>
 
-    <div className='display-container'>
+    <div className='display-box'>
       {
         allTrue ? (
           pdfs.map((pdf, index) => (
@@ -60,15 +96,19 @@ const Scenarios = () => {
 }
 
 
+{/* <div className='searchbar-comp'>
+          <div>
+          <h2>Search For Scenarios</h2>
+          <input
+            type="search"
+            placeholder="Type something to search..."
+            onChange={(e) => onSearchChange(e.target.value)}
+          />
+        </div>
 
- //<div className='display-container'>
-   //    <PDFViewer testPDF={testPDF} />
-     // {pdfs.map((pdf, index) => (
-       //   <Link to={`/scenarios/scenario/${pdf.id}`}>
-         //   <Card userInfo={pdf.image} key={index}/>
-          //</Link>
-        //))}
-    //</div> 
+      </div> */}
+
+
 
 export default Scenarios  
 
