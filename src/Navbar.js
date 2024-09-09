@@ -30,12 +30,12 @@ const Navbar = () => {
             <li>
                  <Link to='/scenarios'>Scenarios</Link>
             </li>
-            <li>
+            {/* <li>
                  <Link to='/tactics'>Tactics</Link>
             </li>
             <li>
                  <Link to='/abacus'>Abacus</Link>
-            </li>
+            </li> */}
         </ul>
     </nav>
   )

@@ -4,6 +4,7 @@ import './CSSpages/scenarios.css'
 import Card from './card'
 import { Link } from 'react-router-dom'
 import DropdownFilter from './DropdownFilter';
+import randomScenario from './randomScenario'
 
 
 const Scenarios = () => {
@@ -17,9 +18,13 @@ const Scenarios = () => {
 
   const [filter, setFilter] = useState('all');
   const [tempData, setTempData] = useState(pdfs)
+  const [random, setRandom] = useState('');
+
 
   const handleFilterChange = (selectedFilter) => {
     setFilter(selectedFilter);
+    setRandom('')
+
   };
 
   const onSearchChange = (value) => {
@@ -28,8 +33,14 @@ const Scenarios = () => {
         cust.name.toLocaleLowerCase().includes(value.toLocaleLowerCase())
     );
     setTempData(newData);
-    console.log(tempData)
+    setRandom('')
   };
+
+  const randomItem = () => {
+    const random = Math.floor(Math.random() * pdfs.length)
+    const randomData = pdfs.filter(item => item.id === random)
+    setRandom(randomData)
+  }
 
   const allTrue = filter === 'all';
 
@@ -40,6 +51,7 @@ const Scenarios = () => {
     { value: 'New Flight Plan', label: 'New Flight Plan' },
     { value: 'Pacific Theater', label: 'Pacific Theater' },
     { value: 'Terrain Pack', label: 'Terrain Pack' },
+    { value: 'Equipment Pack', label: 'Equipment Pack' },
     
   ];
    
@@ -51,7 +63,11 @@ const Scenarios = () => {
       <div className='dropdown'>
         <h1>Filter Scenarios</h1>
           <DropdownFilter options={options} onFilterChange={handleFilterChange} />
-          {/* Render your filtered data here */}
+          
+      </div>
+
+      <div className='random'>
+        <button onClick={randomItem}>Pick a random Scenario</button>
       </div>
 
         <div className='searchbar'>
@@ -74,14 +90,21 @@ const Scenarios = () => {
 
     <div className='display-box'>
       {
+        random != '' ? (
+          random.map((pdf, index) => (
+            <Link to={`/scenarios/scenario/${pdf.id}`}>
+              <Card userInfo={pdf.image} key={index}/>
+            </Link>
+          ))
+        ) :
         allTrue ? (
-          pdfs.map((pdf, index) => (
+          tempData.map((pdf, index) => (
             <Link to={`/scenarios/scenario/${pdf.id}`}>
               <Card userInfo={pdf.image} key={index}/>
             </Link>
           ))
         ) : (
-       pdfs.filter(pdf => pdf.filter === filter).map((pdf, index) => (
+       tempData.filter(pdf => pdf.filter === filter).map((pdf, index) => (
         <Link to={`/scenarios/scenario/${pdf.id}`}>
           <Card userInfo={pdf.image} key={index}/>
         </Link>
