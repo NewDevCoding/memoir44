@@ -90,7 +90,7 @@ const Scenarios = () => {
 
     <div className='display-box'>
       {
-        random != '' ? (
+        random !== '' ? (
           random.map((pdf, index) => (
             <Link to={`/scenarios/scenario/${pdf.id}`}>
               <Card userInfo={pdf.image} key={index}/>
