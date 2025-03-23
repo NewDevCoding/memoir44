@@ -6,11 +6,8 @@ import "./CSSpages/scenarios.css"
 // this css file removes the space and extra text from displaying under the pdf file
 import "react-pdf/dist/esm/Page/AnnotationLayer.css"
 
-// Set up the worker using the correct path
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-).toString();
+// Set up the worker using a more reliable approach
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const PDFViewer = ({testPDF}) => {
  
